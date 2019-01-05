@@ -1,0 +1,28 @@
+module.exports = {
+  "env": {
+    "browser": true,
+    "es6": true,
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "arrow-parens": [0],
+    "array-bracket-spacing": [2, "always", { "singleValue": false, "objectsInArrays": true, "arraysInArrays": true }],
+    "indent": [2, 4, { "SwitchCase": 1 }],
+    "max-len": [2, 120],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-indent": [2, 4],
+    "react/jsx-indent-props": [2, 4],
+    "react/no-array-index-key": [1],
+    "react/forbid-prop-types": [1],
+    "camelcase": [0],
+    "no-underscore-dangle": [0],
+    "jsx-a11y/anchor-is-valid": [0],
+    "jsx-a11y/alt-text": [0],
+    "prefer-destructuring": [1],
+    "class-methods-use-this": 0,
+    "import/no-named-as-default": 0,
+    "no-shadow": 1,
+    "import/prefer-default-export": 0,
+  },
+};
